@@ -6,6 +6,8 @@
 
 Systematic comparison of class imbalance techniques on the Home Credit Default Risk dataset (**307,511 loan applications**, 92% vs 8% class imbalance).
 
+![Target Distribution](images/13_target_distribution.png)
+
 ![Three Approaches Comparison](images/01_three_approaches_comparison.png)
 
 ---
@@ -122,24 +124,6 @@ Raw Data (307K) → EDA → Feature Engineering (192 features) → 3 Approaches 
 
 ![Missing Features](images/12_top_missing_feature.png)
 
-![Target Distribution](images/13_target_distribution.png)
-
----
-
-## Installation
-
-```bash
-git clone https://github.com/atharv27t/credit-default-prediction.git
-cd credit-default-prediction
-pip install -r requirements.txt
-```
-
-## Usage
-
-Open and run `CREDIT_LOAN.ipynb` in Jupyter Notebook.
-
-**Note:** The dataset `credit_loan.csv` (Home Credit Default Risk) is not included in the repository due to its size (~158MB). Download it from [Kaggle](https://www.kaggle.com/c/home-credit-default-risk/data) and place it in the project root.
-
 ---
 
 ## Tech Stack
@@ -152,7 +136,3 @@ Open and run `CREDIT_LOAN.ipynb` in Jupyter Notebook.
 - **SHAP** — model explainability
 - **scipy** — McNemar's statistical test
 - **matplotlib / seaborn** — visualization
-
-## License
-
-[MIT](https://github.com/atharv27t/credit-default-prediction/blob/main/LICENSE)
