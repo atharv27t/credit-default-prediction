@@ -84,11 +84,18 @@ Raw Data (307K) → EDA → Feature Engineering (192 features) → 3 Approaches 
 
 ---
 
-## Model Explainability (SHAP)
-
 ![Confusion Matrix](images/03_confusion_matrix.png)
 
 ![Precision-Recall Curve](images/04_precision_recall_curve.png)
+
+
+## Model Explainability (SHAP)
+
+![SHAP Beeswarm Plot](images/05_shap_beeswarm_plot.png)
+
+> Red = high feature value pushes toward DEFAULT. Blue = low feature value pushes toward REPAID.
+
+![SHAP Feature Importance](images/06_shap_bar.png)
 
 ### Top Risk Drivers
 
@@ -100,11 +107,6 @@ Raw Data (307K) → EDA → Feature Engineering (192 features) → 3 Approaches 
 | 4 | GOODS_TO_CREDIT_RATIO | Down payment ratio |
 | 5 | AGE_YEARS | Borrower age |
 
-![SHAP Beeswarm Plot](images/05_shap_beeswarm_plot.png)
-
-> Red = high feature value pushes toward DEFAULT. Blue = low feature value pushes toward REPAID.
-
-![SHAP Feature Importance](images/06_shap_bar.png)
 
 ---
 
