@@ -15,7 +15,7 @@ Systematic comparison of class imbalance techniques on the Home Credit Default R
 ## Key Finding
 
 > **Built-in class balancing (`scale_pos_weight`) significantly outperforms SMOTE for XGBoost**
-> (64.4% vs 45.4% recall, p < 0.000001) — a counterintuitive result challenging conventional wisdom.
+> (64.8% vs 43.3% recall, p < 0.000001) — a counterintuitive result challenging conventional wisdom.
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
